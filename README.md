@@ -28,7 +28,8 @@
 | filter | filtered_df = df.filter(df["gender"] == "M") | filtered_df = df[df["gender"] == "M"] | filter와 where은 동일 |
 | where | filtered_df = df.where(df["gender"] == "M") | filtered_df = df.query('gender == "M"') |  |
 | join | joined_df = df1.join(df2, df1["id"] == df2["id"], "inner") | joined_df = pd.merge(df1, df2, how='inner', on='id')  |  |
-1. 그룹화 및 집계
+
+### 3. 그룹화 및 집계
 
 |  | Spark | pandas |  |
 | --- | --- | --- | --- |
