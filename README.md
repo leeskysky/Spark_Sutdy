@@ -12,7 +12,7 @@
 5. ~~데이터 시각화: **`matplotlib`**, **`seaborn`** 등의 파이썬 시각화 라이브러리와 함께 스파크를 활용하여 데이터를 시각화하는 작업을 진행해보세요.~~
 
 
-## 1. 데이터 변환 
+### 1. 데이터 변환 
 
 |  | spark | pandas |  |
 | --- | --- | --- | --- |
@@ -20,7 +20,8 @@
 | withColumn | df_with_new_column = df.withColumn("city", lit("Seoul")) | df["city"] = "Seoul” | 열 추가 |
 | Drop | df_without_age = df.drop("age") | df_without_age = df.drop("age", axis=1) | 열 제거 |
 | cast | df = df.withColumn("age", df["age"].cast(IntegerType())) | df["age"] = df["age"].astype(int) | 형 변환 |
-1. 필터링 및 조인
+
+### 2. 필터링 및 조인
 
 |  | spark | pandas |  |
 | --- | --- | --- | --- |
