@@ -1,6 +1,7 @@
 # Spark_Sutdy
 ## local에서 싱글노드를 통해 간단한 spark 실습을 진행
 
+## Spark 내장함수와 Python Pandas의 차이점을 비교해보고자 함
 
 1. 데이터 변환: **`select`**, **`withColumn`**, **`drop`**, **`cast`** 등의 함수를 활용하여 데이터 프레임의 컬럼을 선택, 추가, 제거, 형식 변환하는 작업을 해보세요.
 2. 필터링 및 조인: **`filter`**, **`where`**, **`join`**, **`left_outer`**, **`right_outer`**, **`inner`**, **`cross`** 등의 함수를 활용하여 데이터 프레임 간의 필터링 및 조인 작업을 진행해보세요.
